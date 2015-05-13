@@ -24,6 +24,7 @@
 ;; Global electric mode
 (electric-pair-mode)
 ;; Org-mode languagle eval
+(org-babel-do-load-languages
  'org-babel-load-languages
  '((emacs-lisp . t)
    (python . t)
