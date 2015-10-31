@@ -9,6 +9,8 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+;; customize window title
+(setq frame-title-format "emacs")
 (eval-when-compile
   (require 'use-package))
 (require 'diminish)
